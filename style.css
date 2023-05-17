@@ -1,0 +1,111 @@
+h1 {
+    color: red;
+}
+
+p {
+    color: green;
+    
+}
+h2 {
+    color: blue;
+    font-size: 50px;
+    text-align: center;
+}
+.p-texto {
+
+    color: gray;
+}
+#titulo {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+#titulo:hover {
+    color: gray;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nome {
+    color: blueviolet;
+}
+.hexa {
+    color: #666;
+}
+
+.rgba {
+    color: rgba(19, 101, 50 , 1);
+}
+.div-background {
+    background-image: url('img/html.jpg');
+    height: 300px;
+}
+h1 {
+    text-align: center;
+}
+.titulo-background {
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+
+}
+.family {
+    color: gray;
+    font-size: 30px;
+    
+}
+.verdana {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.monospace.family {
+    
+    color: green; 
+    font-family: monospace;
+    
+}
+.georgia {
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+ .variantes {
+    font-variant: small-caps;
+ }
+/* boxmodel - posicionamento de objetos na tela - Projeto login e senha ver aqui!!!*/
+body {
+    margin: 0;
+    background-image: url('img/html.jpg');
+}
+ .boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: #999;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: 200px 10px 20px 600px ;
+    
+       
+ }
+
+ .btn {
+
+    color: #666;
+ }
+ .btn:hover {
+
+    color: #999;
+ }
+
+ .input {
+    margin: 10px;
+
+ }
