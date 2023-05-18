@@ -82,7 +82,7 @@ h1 {
 /* boxmodel - posicionamento de objetos na tela - Projeto login e senha ver aqui!!!*/
 body {
     margin: 0;
-    background-image: url('img/html.jpg');
+   /* background-image: url('img/html.jpg');*/
 }
  .boxmodel {
     width: 200px;
@@ -108,4 +108,24 @@ body {
  .input {
     margin: 10px;
 
+ }
+
+ .div-posicion {
+    width: 200px;
+    height: 200px;
+    background-color: #999;
+ }
+
+ .static {
+    position: static;
+ }
+ .relative {
+    position: relative;
+    top:  200px;
+    left: 640px;
+ }
+ .absolute {
+    position: absolute;
+    top:  200px;
+    left: 640px;
  }
