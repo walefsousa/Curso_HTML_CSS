@@ -113,7 +113,7 @@ body {
  .div-posicion {
     width: 200px;
     height: 200px;
-    background-color: #999;
+    background-color: red;
  }
 
  .static {
@@ -129,3 +129,15 @@ body {
     top:  200px;
     left: 640px;
  }
+
+ .fixed {
+    position: fixed;
+    top:  200px;
+    left: 640px;
+ }
+
+ .sticky {
+    position: sticky;
+    background-color: green;
+    top: 100px;
+    }
